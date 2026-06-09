@@ -3,7 +3,7 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>DALI_CG_PIC18F47K42</name>
+            <name>dali-tap-bridge-pic18</name>
             <creation-uuid>f2ff5466-f6d6-42d3-9345-c9bd4e820697</creation-uuid>
             <make-project-type>0</make-project-type>
             <c-extensions>c</c-extensions>
@@ -13,6 +13,7 @@
             <sourceEncoding>ISO-8859-1</sourceEncoding>
             <make-dep-projects/>
             <sourceRootList>
+                <sourceRootElem>../drivers_peripherals</sourceRootElem>
                 <sourceRootElem>../dali_library</sourceRootElem>
             </sourceRootList>
             <confList>

@@ -2,6 +2,8 @@
 
 ## 2026-06
 
+- 2026-06-09: MPLAB project metadata renamed to `dali-tap-bridge-pic18` for easier IDE identification  
+  File: `docs/agent/logs/2026-06-09-mplab-project-name-alignment.md`
 - 2026-06-09: Public file/header audit for sniffer/CD branch with conservative header normalization  
   File: `docs/agent/logs/2026-06-09-public-file-header-audit.md`
 - 2026-06-09: Minimal public sniffer / Control Device TX extract with raw `send 16` and `send 24` commands  
