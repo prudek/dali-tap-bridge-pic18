@@ -1,0 +1,123 @@
+{
+    "version": "1.9",
+    "importedFrom": "DALI_CG_PIC18F47K42.X",
+    "configurations": [
+        {
+            "name": "default",
+            "id": "",
+            "device": "PIC18F47K42",
+            "imageType": "application",
+            "imagePath": "./out/DALI_CG_PIC18F47K42/default.elf",
+            "toolProperties": "default-tool-base",
+            "tool": "Simulator",
+            "packs": [
+                {
+                    "name": "PIC18F-K_DFP",
+                    "vendor": "Microchip",
+                    "version": "1.15.303"
+                }
+            ],
+            "fileSet": "Project files",
+            "toolchain": "default-XC8",
+            "includeLegacyMacros": true
+        }
+    ],
+    "propertyGroups": [
+        {
+            "name": "default-XC8",
+            "type": "toolchain",
+            "provider": "microchip.toolchains:xc8@3.10",
+            "properties": {
+                "HI-TECH-COMP.asmlist": true,
+                "HI-TECH-COMP.define-macros": "DALI_USE_DEVICE_TYPE_6;DALI_USE_DEVICE_TYPE_8;DALI_USE_EXTRA_MEMORY_BANKS",
+                "HI-TECH-COMP.disable-optimizations": false,
+                "HI-TECH-COMP.extra-include-directories": "dali_library;dali_library/dali_core;dali_library/dali_core/dali_dev_type_6;dali_library/dali_core/dali_dev_type_8;dali_library/dali_core/dali_general_cg_core;dali_library/dali_core/dali_hal;lamp_hardware;lamp_hardware/lamp_hw_dev_type_6;drivers_peripherals;DALI_CG_PIC18F47K42.X/mcc_generated_files;DALI_CG_PIC18F47K42.X",
+                "HI-TECH-COMP.favor-optimization-for": "-speed,+space",
+                "HI-TECH-COMP.identifier-length": "255",
+                "HI-TECH-COMP.local-generation": false,
+                "HI-TECH-COMP.operation-mode": "pro",
+                "HI-TECH-COMP.opt-xc8-compiler-strict_ansi": false,
+                "HI-TECH-COMP.optimization-assembler": true,
+                "HI-TECH-COMP.optimization-assembler-files": false,
+                "HI-TECH-COMP.optimization-debug": false,
+                "HI-TECH-COMP.optimization-invariant-enable": false,
+                "HI-TECH-COMP.optimization-invariant-value": "16",
+                "HI-TECH-COMP.optimization-level": "9",
+                "HI-TECH-COMP.optimization-speed": false,
+                "HI-TECH-COMP.optimization-stable-enable": false,
+                "HI-TECH-COMP.preprocess-assembler": false,
+                "HI-TECH-COMP.use-cci": false,
+                "HI-TECH-COMP.use-iar": false,
+                "HI-TECH-COMP.verbose": false,
+                "HI-TECH-COMP.warning-level": "-3",
+                "HI-TECH-COMP.what-to-do": "ignore",
+                "HI-TECH-LINK.additional-options-extend-address": false,
+                "HI-TECH-LINK.additional-options-use-response-files": false,
+                "HI-TECH-LINK.backup-reset-condition-flags": false,
+                "HI-TECH-LINK.calibrate-oscillator": false,
+                "HI-TECH-LINK.calibrate-oscillator-value": "0x3400",
+                "HI-TECH-LINK.clear-bss": true,
+                "HI-TECH-LINK.code-model-external": "wordwrite",
+                "HI-TECH-LINK.create-html-files": false,
+                "HI-TECH-LINK.data-model-size-of-double": "32",
+                "HI-TECH-LINK.data-model-size-of-double-gcc": "no-short-double",
+                "HI-TECH-LINK.data-model-size-of-float": "32",
+                "HI-TECH-LINK.data-model-size-of-float-gcc": "no-short-float",
+                "HI-TECH-LINK.display-class-usage": false,
+                "HI-TECH-LINK.display-hex-usage": false,
+                "HI-TECH-LINK.display-overall-usage": true,
+                "HI-TECH-LINK.display-psect-usage": false,
+                "HI-TECH-LINK.fill-flash-options-how": "0",
+                "HI-TECH-LINK.fill-flash-options-inc-const": "1",
+                "HI-TECH-LINK.fill-flash-options-what": "0",
+                "HI-TECH-LINK.format-hex-file-for-download": false,
+                "HI-TECH-LINK.initialize-data": true,
+                "HI-TECH-LINK.keep-generated-startup.as": false,
+                "HI-TECH-LINK.link-in-c-library": true,
+                "HI-TECH-LINK.link-in-peripheral-library": false,
+                "HI-TECH-LINK.managed-stack": false,
+                "HI-TECH-LINK.opt-xc8-linker-file": false,
+                "HI-TECH-LINK.opt-xc8-linker-link_startup": false,
+                "HI-TECH-LINK.program-the-device-with-default-config-words": true,
+                "XC8-CO.stack-guidance": false,
+                "XC8-config-global.advanced-elf": true,
+                "XC8-config-global.gcc-opt-driver-new": false,
+                "XC8-config-global.gcc-opt-std": "--std=c89",
+                "XC8-config-global.gcc-output-file-format": "dwarf-3",
+                "XC8-config-global.output-file-format": "-mcof,+elf",
+                "XC8-config-global.stack-size-high": "auto",
+                "XC8-config-global.stack-size-low": "auto",
+                "XC8-config-global.stack-size-main": "auto",
+                "XC8-config-global.stack-type": "compiled"
+            }
+        },
+        {
+            "name": "default-tool-base",
+            "type": "tool",
+            "properties": {}
+        }
+    ],
+    "fileSets": [
+        {
+            "name": "Project files",
+            "files": [
+                "drivers_peripherals/random.h",
+                "dali_library/dali_core/dali_general_cg_core/dali_cg_layer.h",
+                "dali_library/dali_core/dali_general_cg_core/dali_cg_machine.h",
+                "dali_library/dali_core/dali_general_cg_core/dali_cg_nvmemory.h",
+                "DALI_CG_PIC18F47K42.X/Makefile",
+                "DALI_CG_PIC18F47K42.X/mcc_generated_files/*",
+                "dali_library/*",
+                "dali_library/dali_core/*",
+                "dali_library/dali_core/dali_dev_type_6/*",
+                "dali_library/dali_core/dali_dev_type_8/*",
+                "dali_library/dali_core/dali_hal/*",
+                "lamp_hardware/**/*",
+                "dali_library/dali_core/dali_general_cg_core/*.c",
+                "drivers_peripherals/*.c",
+                "DALI_CG_PIC18F47K42.X/*.mc3"
+            ],
+            "encoding": "ISO-8859-1"
+        }
+    ]
+}

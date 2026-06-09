@@ -1,0 +1,37 @@
+# MPLAB X build output
+build/
+dist/
+
+# NetBeans/MPLAB private files
+nbproject/private/
+
+# Debug / temp / caches
+*.o
+*.obj
+*.d
+*.p1
+*.lst
+*.map
+*.elf
+*.hex
+*.cod
+*.cmf
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.generated_files/
+nbproject/
+Makefile*
+Package-*
+private/
+_build/
+!cmake/**/user.cmake
+cmake/**/.generated/*
+cmake/**/CMake*
+out/
+docs/standards/
+DALI_CG_PIC18F47K42.X/nbproject/private/
+DALI_CG_PIC18F47K42.X/defmplabxtrace.log*
+DALI_CG_PIC18F47K42.X/queuelogs/
+DALI_CG_PIC18F47K42.X/MyConfig.mc3.bak*
