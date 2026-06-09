@@ -2,6 +2,8 @@
 
 ## 2026-06
 
+- 2026-06-09: Firmware version bump to `1.0.2` for terminal runtime report (`gvr`)  
+  File: `docs/agent/logs/2026-06-09-fw-version-1.0.2.md`
 - 2026-06-09: MPLAB project metadata renamed to `dali-tap-bridge-pic18` for easier IDE identification  
   File: `docs/agent/logs/2026-06-09-mplab-project-name-alignment.md`
 - 2026-06-09: Public file/header audit for sniffer/CD branch with conservative header normalization  
