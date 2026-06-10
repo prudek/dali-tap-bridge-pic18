@@ -1,6 +1,8 @@
 /*
- * Project-local source for the DALI sniffer / Control Device terminal bridge.
- * Repository license and third-party notice policy are finalized separately.
+ * SPDX-License-Identifier: AGPL-3.0-or-later
+ * Copyright (c) 2026 prudek
+ *
+ * Project-local UART2 transport interface for the terminal.
  */
 
 #ifndef DEBUG_UART2_H

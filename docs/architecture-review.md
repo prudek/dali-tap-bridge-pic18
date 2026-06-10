@@ -3,7 +3,7 @@
 > Legacy/internal reference for the pre-extraction Control Gear branch. The
 > public sniffer/CD branch is documented in [`README.md`](../README.md),
 > [`docs/hardware.md`](hardware.md), [`docs/terminal.md`](terminal.md), and
-> [`docs/release-gate.md`](release-gate.md).
+> the top-level `NOTICE` and `LICENSE` files.
 
 ## Summary
 

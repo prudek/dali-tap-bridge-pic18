@@ -4,7 +4,7 @@
 - Branch: `prudek/public-release-cleanup`
 - Base product line: DALI sniffer / minimal Control Device terminal bridge
 - Explicitly excluded from this step: final `README`, `NOTICE`, `LICENSE`,
-  hardware documentation, and final release gate.
+  hardware documentation, and final public release checklist.
 
 ## Scope
 
@@ -26,8 +26,8 @@ repository still carries public-release blockers outside the active build path:
 The header cleanup in this step is intentionally conservative:
 
 - Microchip/MCC headers were preserved.
-- Project-local modules received neutral project headers without selecting a
-  license.
+- Project-local modules received neutral project headers before the final
+  licensing decision.
 - Microchip-derived files with local adaptation received adaptation notes without
   changing the original Microchip notice.
 
@@ -55,9 +55,8 @@ The header cleanup in this step is intentionally conservative:
 
 ### Project-local headers added
 
-These files now have a neutral project-local header. No SPDX/license identifier
-was added because the repository license is an owner decision planned for the
-final governance step.
+These files now have a project-local header. The later licensing decision can
+replace these with SPDX identifiers once the repository policy is finalized.
 
 - `dali_library/board_diag.h`
 - `dali_library/dali_diag.c`

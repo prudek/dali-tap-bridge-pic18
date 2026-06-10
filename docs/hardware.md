@@ -27,6 +27,21 @@ This branch targets the `PIC18F47K42 Curiosity Nano` platform.
 - parity: `none`
 - stop bits: `1`
 
+## Compatible Front-Ends
+
+The firmware is written for the Microchip `PIC18F47K42 Curiosity Nano`, with a
+proper DALI physical front-end and driver stage between the MCU and the bus.
+
+The following DALI adapter boards are reasonable examples of that front-end
+role:
+
+- Waveshare `Pico-DALI2`
+- MikroE `DALI 2 click`
+
+These boards are host-facing adapter products rather than drop-in board
+targets for this repository, so they need matching pinout and integration work
+before they are treated as a supported setup.
+
 ## Practical Notes
 
 - The terminal is meant for command entry and diagnostic output.

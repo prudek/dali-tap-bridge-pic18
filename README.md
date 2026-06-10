@@ -9,6 +9,19 @@ It is intentionally a minimal runtime. This branch focuses on the sniffer/CD
 runtime, while the full Control Gear / lamp application remains in the base
 repository.
 
+## Hardware Notes
+
+- designed around the Microchip `PIC18F47K42 Curiosity Nano`
+- uses `UART1` plus the PIC18 timing/peripheral fabric for DALI frame handling
+  and `UART2` for the debug terminal
+- expects a proper DALI physical front-end / driver stage between the MCU and
+  the bus
+- supports DALI forward-frame handling and raw 16-bit / 24-bit transmit paths;
+  the sniffer path reports forward, backward, and local transmit observations
+- compatible front-end examples include the Waveshare `Pico-DALI2` adapter
+  and the MikroE `DALI 2 click`, but those boards are host-facing adapter
+  products rather than native drop-in targets for this firmware
+
 ## What It Does
 
 - receives DALI traffic on `UART1` (`RC2/RC3`)
@@ -54,7 +67,6 @@ If MPLABX needs the bundled make executable, use the full path noted in
 
 - [Hardware](docs/hardware.md)
 - [Terminal](docs/terminal.md)
-- [Release gate](docs/release-gate.md)
 - [NOTICE](NOTICE)
 - [LICENSE](LICENSE)
 

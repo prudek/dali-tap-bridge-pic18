@@ -1,13 +1,17 @@
 This repository contains a mix of project-local source code and third-party
 generated or derived files.
 
-Project-local source code in this branch is licensed under the terms in
-`LICENSE`.
+Project-local source code in this repository is licensed under
+`AGPL-3.0-or-later` as described in `LICENSE`.
 
 Third-party generated or derived files keep their original notices and terms,
 including Microchip MCC-generated content and Microchip-derived example code.
 Those files are used subject to the Microchip license agreement that applies to
 the original materials.
+
+This firmware is intended for use on the Microchip PIC18F47K42 Curiosity Nano
+and a compatible DALI physical front-end / driver stage. It is not intended as
+a generic drop-in image for unrelated host boards without adaptation.
 
 The DALI and DALI-2 marks are trademarks of the DALI Alliance. This repository
 does not claim certification, listing, or endorsement unless a release note

@@ -2,6 +2,8 @@
 
 ## 2026-06
 
+- 2026-06-10: Documentation and licensing cleanup for AGPL boundary, hardware notes, and release-gate removal  
+  File: `docs/agent/logs/2026-06-10-doc-license-hardware-cleanup.md`
 - 2026-06-09: Firmware version bump to `1.0.2` for terminal runtime report (`gvr`)  
   File: `docs/agent/logs/2026-06-09-fw-version-1.0.2.md`
 - 2026-06-09: MPLAB project metadata renamed to `dali-tap-bridge-pic18` for easier IDE identification  
